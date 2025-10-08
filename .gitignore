@@ -1,0 +1,62 @@
+# ============================
+#  Myth OER .gitignore
+#  (Windows + Dropbox + Office)
+# ============================
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+
+# Recycle Bin (in case of explorer drag/drops)
+$RECYCLE.BIN/
+
+# Dropbox sync metadata
+.dropbox
+.dropbox.attr
+*.dropbox.attr
+*.dropbox.cache/
+
+# Windows hidden temp files
+~$*
+*.tmp
+*.temp
+
+# Office autosave and lock files
+~*.docx
+~*.xlsx
+~*.pptx
+~*.doc
+~*.xls
+~*.ppt
+~*.odt
+
+# VS Code / Editor folders
+.vscode/
+.idea/
+*.code-workspace
+
+# GitHub Desktop
+*.orig
+
+# Logs and backups
+*.log
+*.bak
+*.old
+*.swp
+
+# Python or other build artifacts (if used later)
+__pycache__/
+*.pyc
+
+# Ignore OS backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Node or build systems (future proof)
+node_modules/
+dist/
+build/
