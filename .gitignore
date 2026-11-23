@@ -60,3 +60,7 @@ __pycache__/
 node_modules/
 dist/
 build/
+
+# Saved Google Drive browser captures
+/World Myth OER.pdf - Google Drive
+/Sailor — World Myth OER_files/World Myth OER.pdf - Google Drive
